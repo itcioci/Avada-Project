@@ -1,5 +1,8 @@
 /*JavaScript.JQuery code by Hoang Kim Duc*/
 $(document).ready(function(){
+    //Tooltip
+    $('[data-toggle="tooltip"]').tooltip();
+    //
     $(".panel-heading-collapse h4 a").click(function(e){
         var objectclick=e.currentTarget.parentElement.parentElement.getAttribute("id");
         if( $("#"+objectclick+" h4").attr("class")=="panel-title"){
@@ -15,5 +18,5 @@ $(document).ready(function(){
             $("#"+objectclick+" h4").addClass("panel-title");
         }
     })
-    
+
 })

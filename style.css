@@ -33,7 +33,7 @@
            font-size: 14px;
             color: #919191;
             letter-spacing: -1px;
-    word-spacing: 1.5px;
+            word-spacing: 1.5px;
         }
         .color-green-main{
             color: #b3d76b;
@@ -776,13 +776,13 @@
 .product-thumbnail .caption{
     padding: 10px 15px;
 }
-.product-sale{
+.product-sale .product-img{
     position: relative;
 }
-.product-sale:before{
+.product-sale .product-img:before{
     position: absolute;
     content: "Sale!";
-    top: 240px;
+    bottom: -10px;
     right: 20px;
     width: 40px;
     height: 40px;
@@ -795,6 +795,7 @@
 }
 .product-thumbnail img{
     opacity: 1;
+    max-width: 100%;
 }
 .product-thumbnail img:hover{
     opacity: 0.4;

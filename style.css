@@ -24,6 +24,9 @@
             text-decoration: none;
             color: #b3d76b;
         }
+        a .small:hover{
+            color: #b3d76b;
+        }
         p,#footer .list-group-item{
             font-family: 'Ubuntu', sans-serif;
             font-weight: normal;
@@ -71,6 +74,9 @@
         .bg-white {
             background-color: #fff;
         }
+.bg-color-f6{
+    background-color: #f6f6f6;
+}
         .panel-group,.tab-kd,.panel-widget{
             padding-top: 40px;
         }
@@ -95,6 +101,9 @@
         .padding20{
             padding: 20px!important;
         }
+.padding10{
+    padding: 10px;
+}
 .form-control{
     border-radius: 0;
     margin-bottom: 10px;
@@ -105,7 +114,7 @@
     padding-right: 10px;
 }
 .star-kd{
-    font-size: 14px;
+    font-size: 12px;
 }
 .hr-product{
     border-top: 1px solid #ddd;
@@ -463,6 +472,26 @@
     padding:2px 8px;
 }
 /*end My-List*/
+/*My-list-1*/
+.my-list-1 .list-group-item {
+    position: relative;
+    border: none;
+    padding: 2px 15px 0 15px;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #ddd;
+}
+.my-list-1 .list-group-item:before{
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f105";
+    position: absolute;
+    left: -5px;
+    width: 20px;
+    height: 20px;
+    color: #3131;
+    top: 2px;
+    padding:2px 8px;
+}
+/*end My-list-1*/
 /*Mess*/
 
         .panel-mess {
@@ -842,6 +871,10 @@
     background-color: #b3d76b;
     color: #fff;
 }
+.product-small{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
 /*end product-thumbnail*/
 /*select-kd*/
 .select-kd{
@@ -998,3 +1031,23 @@
     background-image: linear-gradient(to bottom,#9fcb4f 0,#9fcb4f 100%)!important;
 }
 /*end Thanh phần trăm màu */
+/* Slider Giá*/
+.slider-track{
+    background-image: none;
+    background-color: #cccacb;
+    border-radius: none;
+    height: 7px!important;
+}
+.slider-selection{
+    background-image: none;
+    background-color: #b3d76b;
+}
+.slider-handle{
+    width: 15px;
+    height: 15px;
+    background-image: none;
+    background-color: #fff;
+    border: 1px solid #313131;
+    box-shadow: inset 0 0 0 4px #fff, inset 0 0 0 5px #313131;
+}
+/* end Slider Gía*/

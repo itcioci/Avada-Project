@@ -21,5 +21,12 @@ $(document).ready(function(){
             $("#"+objectclick+" h4").addClass("panel-title");
         }
     })
+    //
+    $("#ex2").slider({});
+    $("#ex2").on("slide", function(slideEvt) {
+	$("#price-min").text(slideEvt.value[0]);
+      $("#price-max").text(slideEvt.value[1]);
+    });
+    //var slider = new Slider('#ex2', {});
 
 })

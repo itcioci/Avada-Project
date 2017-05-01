@@ -13,11 +13,10 @@ $(document).ready(function(){
             /*reset về + */
              $(".panel-heading-collapse h4").removeClass("panel-title-minus");
             $(".panel-heading-collapse h4").addClass("panel-title");
-            //console.log(listCollapse);
             /**/
             $("#"+objectclick+" h4").removeClass("panel-title");
             $("#"+objectclick+" h4").addClass("panel-title-minus");
-        }else if( $("#"+objectclick+" h4 a").attr("aria-expanded")=="true"){
+        }else{
             $("#"+objectclick+" h4").removeClass("panel-title-minus");
             $("#"+objectclick+" h4").addClass("panel-title");
         }

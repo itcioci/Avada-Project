@@ -92,6 +92,9 @@
          padding-right: 0 !important;
          margin-right: 0 !important;
         }
+        .padding20{
+            padding: 20px!important;
+        }
 .form-control{
     border-radius: 0;
     margin-bottom: 10px;

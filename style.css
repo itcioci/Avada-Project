@@ -54,7 +54,10 @@
             padding-bottom: 20px;
         }
         .padding20-left{
-            padding-left: 20px;
+            padding-left: 20px!important;
+        }
+        .padding20-right{
+            padding-right: 20px!important;
         }
         .padding20-left-right{
             padding-left: 20px!important;
@@ -73,6 +76,21 @@
         }
         .display-ib{
             display: inline-block;
+        }
+        .media-body {
+         width: 0px!important;
+        }
+        .nopadding {
+         padding: 0 !important;
+         margin: 0 !important;
+        }
+        .nopadding-left {
+         padding-left: 0 !important;
+         margin-left: 0 !important;
+        }
+        .nopadding-right {
+         padding-right: 0 !important;
+         margin-right: 0 !important;
         }
 .form-control{
     border-radius: 0;
@@ -930,3 +948,50 @@
               border-top-color: #47484a;
         }
 /*end Footer*/
+/*Panel-slider*/
+.panel .panel-slider{
+    margin-top: 20px;
+}
+.panel .panel-slider .carousel-indicators {
+    left: 40%!important;
+    width: 100%!important;
+    margin-left: 0%!important;
+}
+.panel .panel-slider .carousel-indicators li {
+    width: 15px!important;
+    height: 15px!important;
+    background-color: #fff!important;
+    border: 0px solid #fff!important;
+}
+.panel .panel-slider .carousel-indicators .active {
+    width: 16px!important;
+    height: 16px!important;
+    background-color: #b3d76b!important;
+}
+/*end Panel-slider*/
+/*Panel-body group*/
+.panel .panel-body .panel-group{
+    padding-top: 0px!important;
+}
+/*end Panel-body group*/
+/* Thanh phần trăm*/
+.progress {
+    height: 40px!important; 
+    margin-bottom: 8px!important;
+    background-color: #ccc!important;
+    border-radius: 0px!important; 
+}
+.progress-bar {
+    font-size: 15px!important;
+    text-align: left!important;
+    padding: 10px!important;
+}
+/*end Thanh phần trăm*/
+/* Thanh phần trăm màu */
+.progress-bar-success {
+    background-color: #9fcb4f!important;
+}
+.progress-bar-success {
+    background-image: linear-gradient(to bottom,#9fcb4f 0,#9fcb4f 100%)!important;
+}
+/*end Thanh phần trăm màu */

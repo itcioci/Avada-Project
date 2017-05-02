@@ -27,6 +27,17 @@ $(document).ready(function(){
 	$("#price-min").text(slideEvt.value[0]);
       $("#price-max").text(slideEvt.value[1]);
     });
-    //var slider = new Slider('#ex2', {});
+    //control add or subtract number product
+    var numproduct=1;
+    $('#subtract-btn').click(function(){
+        numproduct--;
+        if(numproduct<=0)
+            numproduct=0;
+        $('#numshow-btn').text(numproduct);
+    })
+     $('#add-btn').click(function(){
+        numproduct++;
+        $('#numshow-btn').text(numproduct);
+    })
 
 })

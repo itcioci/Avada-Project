@@ -32,7 +32,7 @@
             font-weight: normal;
             line-height: 20px;
         }
-        .small{
+       .small{
            font-size: 14px;
             color: #919191;
             letter-spacing: -1px;
@@ -66,6 +66,9 @@
             padding-left: 20px!important;
             padding-right: 20px!important;
         }
+.margin10-left{
+    padding-left: 10px;
+}
         .colo-light {
         color: #d1d1d1;
         font-family: inherit;
@@ -101,6 +104,12 @@
         .padding20{
             padding: 20px!important;
         }
+.padding0-top{
+    padding-top: 0;
+}
+.padding0-left{
+    padding-left: 0;
+}
 .padding10{
     padding: 10px;
 }
@@ -1090,3 +1099,74 @@
     color: #313131;
 }
 /*end page-number*/
+/*img-product*/
+.img-product img{
+    max-width: 100%;
+    width: 100%;
+}
+.img-product .row{
+    padding: 0 10px;
+}
+.img-product .row div{
+    padding: 5px;
+}
+.img-product-sale{
+    position: relative;
+}
+.img-product-sale:before{
+    position: absolute;
+    content: "Sale!";
+    top: 15px;
+    left: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #b3d76b;
+    font-size: 12px;
+    padding: 10px 7px;
+    z-index: 2;
+}
+/*end img-product*/
+/*add-num-product*/
+.add-num-product{
+    overflow: hidden;
+}
+.add-num-product button{
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: none!important;
+}
+.add-num-product .btn-group{
+    padding-right: 10px;
+}
+/*end add-num-product*/
+/*product-info*/
+.product-info .list-group .list-group-item{
+    border: none;
+    margin-bottom: 1px;
+    padding-left: 0;
+    border-bottom: 1px solid #ddd;
+}
+.product-info .list-group .list-group-item.active,.product-info .list-group .list-group-item.active a{
+    color: #b3d76b;
+    background-color: #fff;
+    position: relative;
+}
+.product-info .list-group .list-group-item.active a:before{
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f105";
+    position: absolute;
+    top: 2px;
+    right: -30px;
+    width: 20px;
+    height: 20px;
+    color: #b3d76b;
+}
+.product-info .tab-content{
+    border: 1px solid #ddd;
+}
+/*end product-info*/
+#carousel-img img{
+    width: 100%;
+}
